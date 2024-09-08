@@ -51,7 +51,7 @@ public class LoginTests extends Base {
 		Assert.assertEquals(orderFinalText, "THANKYOU FOR THE ORDER.");
 	}
 
-	@Test(groups = { "Full" }, retryAnalyzer = RetryTest.class)
+	@Test( retryAnalyzer = RetryTest.class)
 	public void placeOrderFailure() throws IOException, InterruptedException {
 		String productName = "ADIDAS ORIGINAL";
 		Products product = loginpage.loginApp(prop.getProperty("username"), prop.getProperty("password"));

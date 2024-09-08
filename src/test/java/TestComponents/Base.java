@@ -39,10 +39,12 @@ public class Base {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
+			System.out.println("ChromeDriver initialized..");
 			break;
 		case "firefox":
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
+			System.out.println("FFDriver initialized..");
 			break;
 		default:
 			break;
