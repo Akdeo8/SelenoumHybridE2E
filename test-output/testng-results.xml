@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-08T11:27:20 IST" name="Suite" finished-at="2024-09-08T11:27:20 IST" duration-ms="0">
+    <groups>
+      <group name="Full">
+        <method signature="LoginTests.placeOrder()[pri:0, instance:TestCases.LoginTests@49c90a9c]" name="placeOrder" class="TestCases.LoginTests"/>
+        <method signature="LoginTests.placeOrderFailure()[pri:0, instance:TestCases.LoginTests@49c90a9c]" name="placeOrderFailure" class="TestCases.LoginTests"/>
+      </group> <!-- Full -->
+    </groups>
+  </suite> <!-- Suite -->
+</testng-results>
