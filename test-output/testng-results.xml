@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-08T11:27:20 IST" name="Suite" finished-at="2024-09-08T11:27:20 IST" duration-ms="0">
+  <suite started-at="2024-09-08T13:01:13 IST" name="Suite" finished-at="2024-09-08T13:01:13 IST" duration-ms="0">
     <groups>
       <group name="Full">
         <method signature="LoginTests.placeOrder()[pri:0, instance:TestCases.LoginTests@49c90a9c]" name="placeOrder" class="TestCases.LoginTests"/>

@@ -69,8 +69,8 @@ public class LoginTests extends Base {
 
 	@DataProvider
 	public Object[][] getData() throws IOException {
-		List<HashMap<String, String>> data = getJsonDataToMap(
-				"/SeleniumHybridFramework/src/test/java/TestData/Data.json");
+		String pth = System.getProperty("user.dir") + "/src/test/java/TestData/Data.json";
+		List<HashMap<String, String>> data = getJsonDataToMap(pth);
 		return new Object[][] { { data.get(0) }, { data.get(1) } };
 
 	}
